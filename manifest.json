@@ -1,0 +1,19 @@
+{
+
+    "manifest_version": 2,
+    "name": "TransAdd",
+    "version": "1.0",
+
+    "description": "This extension should help you understanding foreign texts with instant translation of key words.",
+
+    "icons": {
+        "48": "icons/iconmonstr-language-8-48.png"
+    },
+
+    "content_scripts":[
+        {
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["transadd.js"]
+        }
+    ]
+}
