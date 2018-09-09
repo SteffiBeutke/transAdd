@@ -15,5 +15,7 @@
         "matches": ["*://*.mozilla.org/*"],
         "js": ["transadd.js"]
         }
-    ]
+    ],
+
+    "permissions": ["tabs", "activeTab"]
 }
